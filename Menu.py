@@ -5,15 +5,15 @@ from Config import screen_width, screen_height
 class Menu:
     def __init__(self):
         # Carrega e redimensiona o fundo do menu
-        self.background = pygame.image.load("Menu.jpg").convert()
+        self.background = pygame.image.load("assets/Menu.jpg").convert()
         self.background = pygame.transform.scale(self.background, (screen_width, screen_height))
         
         # Carrega e redimensiona a imagem do título
-        self.title_image = pygame.image.load("Title.png").convert_alpha()
+        self.title_image = pygame.image.load("assets/Title.png").convert_alpha()
         self.title_image = pygame.transform.scale(self.title_image, (500, 500))
         
         # Define a fonte para o texto dos botões
-        self.font = pygame.font.Font('PressStart2P.ttf', 50)  
+        self.font = pygame.font.Font('assets/PressStart2P.ttf', 50)  
         
         # Lista de botões do menu com o texto e a ação correspondente
         self.buttons = [

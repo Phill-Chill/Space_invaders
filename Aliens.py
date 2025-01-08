@@ -10,19 +10,19 @@ class Alien(pygame.sprite.Sprite):
         self.sprites = []
         sprite_files = [ 
             [
-            'Sprite-0002.png', 'Sprite-0003.png', 'Sprite-0004.png', 
-            'Sprite-0005.png', 'Sprite-0006.png', 'Sprite-0007.png', 
-            'Sprite-0008.png', 'Sprite-0009.png', 'Sprite-0010.png', 
-            'Sprite-0011.png'
+            'assets/Sprite-0002.png', 'assets/Sprite-0003.png', 'assets/Sprite-0004.png', 
+            'assets/Sprite-0005.png', 'assets/Sprite-0006.png', 'assets/Sprite-0007.png', 
+            'assets/Sprite-0008.png', 'assets/Sprite-0009.png', 'assets/Sprite-0010.png', 
+            'assets/Sprite-0011.png'
             ],
 
             [
-                'Sprite-Jellyfish-0001.png', 'Sprite-Jellyfish-0002.png', 'Sprite-Jellyfish-0003.png', 
-                'Sprite-Jellyfish-0004.png', 'Sprite-Jellyfish-0005.png', 'Sprite-Jellyfish-0006.png', 
-                'Sprite-Jellyfish-0007.png', 'Sprite-Jellyfish-0008.png', 'Sprite-Jellyfish-0009.png' 
+                'assets/Sprite-Jellyfish-0001.png', 'assets/Sprite-Jellyfish-0002.png', 'assets/Sprite-Jellyfish-0003.png', 
+                'assets/Sprite-Jellyfish-0004.png', 'assets/Sprite-Jellyfish-0005.png', 'assets/Sprite-Jellyfish-0006.png', 
+                'assets/Sprite-Jellyfish-0007.png', 'assets/Sprite-Jellyfish-0008.png', 'assets/Sprite-Jellyfish-0009.png' 
             ],
             [
-                'Sprite-Breadhead-0001.png', 'Sprite-Breadhead-0002.png', 'Sprite-Breadhead-0003.png',
+                'assets/Sprite-Breadhead-0001.png', 'assets/Sprite-Breadhead-0002.png', 'assets/Sprite-Breadhead-0003.png',
             ]
 
         ]

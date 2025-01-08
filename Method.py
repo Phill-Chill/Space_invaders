@@ -37,7 +37,7 @@ class _Method:
  
     
 
-    def load_points(self, filename='points.json'):
+    def load_points(self, filename='assets/points.json'):
         try:
             with open(filename, 'r') as file:
                 points = json.load(file)
@@ -45,7 +45,7 @@ class _Method:
             points = 0  # Se o arquivo não existir, inicialize os pontos com 0
         return points
 
-    def save_points(self, points, filename='points.json'):
+    def save_points(self, points, filename='assets/points.json'):
         with open(filename, 'w') as file:
             json.dump(points, file)
 
@@ -53,11 +53,11 @@ class _Method:
     def show_collision_animation(self, screen, screen_width, screen_height):
 
         animation_frames = [
-            pygame.image.load('Game_over1.png'),
-            pygame.image.load('Game_over2.png'),
-            pygame.image.load('Game_over3.png'),
-            pygame.image.load('Game_over4.png'),
-            pygame.image.load('Game_over5.png'),
+            pygame.image.load('assets/Game_over1.png'),
+            pygame.image.load('assets/Game_over2.png'),
+            pygame.image.load('assets/Game_over3.png'),
+            pygame.image.load('assets/Game_over4.png'),
+            pygame.image.load('assets/Game_over5.png'),
         ]
 
         # Redimensionar cada frame da animação para preencher toda a tela

@@ -18,7 +18,7 @@ class Game:
     pygame.mixer.init()
 
     # Som de explosão
-    death = pygame.mixer.Sound('Explosion.mp3')
+    death = pygame.mixer.Sound('assets/Explosion.mp3')
     death.set_volume(0.05) 
 
     # Screen
@@ -28,9 +28,9 @@ class Game:
     running = True
 
     # Imagens
-    background = pygame.image.load('SpaceBK.jpg')# Imagem de fundo
+    background = pygame.image.load('assets/SpaceBK.jpg')# Imagem de fundo
     background = pygame.transform.scale(background, (800, 600))
-    life_image = pygame.image.load('Life.png')  # Imagem de vida
+    life_image = pygame.image.load('assets/Life.png')  # Imagem de vida
     life_image = pygame.transform.scale(life_image, (30, 22)) 
 
     
@@ -158,7 +158,7 @@ class Game:
                 alien.shoot()
 
 
-        font = pygame.font.Font('PressStart2P.ttf', 10)
+        font = pygame.font.Font('assets/PressStart2P.ttf', 10)
 
         points_max = font.render(f"Max points: {max_points}", True, (255, 255, 255))
         points_user = font.render(f"Points: {user_points}", True, (255, 255, 255))

@@ -9,8 +9,8 @@ class Ship(pygame.sprite.Sprite):
         super().__init__()
         self.sprites = []
         spriteShip_files = [
-            'StarShipStandard.png', 'StarShipShooting1.png', 'StarShipShooting2.png', 'StarShipShooting3.png',
-            'StarShipShooting4.png', 'StarShipShooting5.png', 'StarShipShooting6.png', 'StarShipShooting7.png'
+            'assets/StarShipStandard.png', 'assets/StarShipShooting1.png', 'assets/StarShipShooting2.png', 'assets/StarShipShooting3.png',
+            'assets/StarShipShooting4.png', 'assets/StarShipShooting5.png', 'assets/StarShipShooting6.png', 'assets/StarShipShooting7.png'
         ]
         for sprite_file in spriteShip_files:
             sprite = pygame.image.load(sprite_file)
