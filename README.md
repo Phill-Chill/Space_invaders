@@ -18,7 +18,7 @@ Este é um clone do clássico jogo **Space Invaders** desenvolvido em Python uti
 
 ## Capturas de Tela
 
-![Menu Inicial](assets/Game_over1.jpg)  
+![Menu Inicial](assets/Game_over1.png)  
 *Menu Inicial*
 
 ![Jogo em Andamento](assets/Gameplay.png)  
@@ -95,7 +95,6 @@ space-invaders-clone/
 ├── Method.py
 ├── Config.py
 ├── README.md
-
 
 
 \- \*\*Aliens.py:\*\* Define a classe Alien e sua lógica de
